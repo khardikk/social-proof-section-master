@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=League+Spartan:400,500,700');
+
+body {
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700; /* For the bold weight */
+  }
+  
+  p {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400; /* For the regular weight */
+  }
+  

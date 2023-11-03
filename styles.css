@@ -39,7 +39,7 @@ body {
   .rating{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 450px;
     color: hsl(300, 43%, 22%);
     background-color: hsl(300, 24%, 96%);

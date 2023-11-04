@@ -39,16 +39,23 @@ body {
   .rating{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 450px;
     color: hsl(300, 43%, 22%);
     background-color: hsl(300, 24%, 96%);
     margin-bottom: 15px;
     border-radius: 10px;
   }
+.rating.second{
+  margin-left: 40px;
+}
+.rating.third{
+  margin-left: 80px;
+}
 
   .card-wrapper{
     display: flex;
+    margin-bottom: 50px;
   }
 
   .card{
@@ -64,6 +71,13 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     background-color:hsl(300, 43%, 22%) ;  
+  }
+
+  .card.marginone{
+    margin-top: 20px;
+  }
+  .card.margintwo{
+    margin-top:40px;
   }
 
   .card p{
@@ -83,4 +97,71 @@ body {
   .contact-header{
     display: flex;
     align-items: center;
+  }
+
+  @media (max-width: 768px) {
+    body {
+     height: 100%;
+    }
+  
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+  
+    h1 {
+      text-align: center;
+    }
+  
+    p {
+      text-align: center;
+    }
+  
+    .rating {
+      display: flex;
+      flex-direction: column;
+      width: 330px;
+      padding-top: 5px;
+    }
+    .rating.second{
+      margin-left: 0px;
+    }
+    .rating.third{
+      margin-left: 0px;
+    }
+
+  
+    .card-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .card {
+      margin-right: 0px;
+      margin-bottom: 0px;
+    }
+
+    .card.marginone{
+      margin-top: 20px;
+    }
+    .card.margintwo{
+      margin-top:20px;
+    }
+  
+    .card p {
+      /* Your styles for larger screens */
+    }
+  
+    .card img {
+      /* Your styles for larger screens */
+    }
+  
+    .contact-header {
+      /* Your styles for larger screens */
+    }
   }
